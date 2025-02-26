@@ -1,7 +1,7 @@
 <?php
 
 //Key 
-$geminiApiKey = 'ver';
+$geminiApiKey = 'AIzaSyB4RtIJakmNOrxAjHb5zEB2CB8-Y5qdJII';
 
 // Obtiene el input del POST
 $input = isset($_POST['input']) ? $_POST['input'] : '';
