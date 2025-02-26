@@ -16,7 +16,7 @@ document
     inputField.value = "";
 
     //Solicitud HTTP POST
-    fetch("chatbot.php", {
+    fetch("api/chatbot.php", {
       method: "POST",
       headers: {
         "Content-Type": "application/x-www-form-urlencoded",
