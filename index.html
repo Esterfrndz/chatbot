@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatbot IA</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Share+Tech+Mono&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Contenedor general -->
+    <div id="container" class="container">
+        <!-- Título -->
+        <div class="title">
+            <h2>ChatBot Test</h2>
+            <p>Pregunta lo que quieras</p>
+        </div>
+        <!-- Formulario -->
+        <form id="chat-form" class="chat-form">
+            <input type="text" id="inputField" placeholder="Escribe un mensaje..." />
+            <button type="submit">Enviar</button>
+        </form>
+
+        <!-- Contenedor de conversación -->
+
+        <div id="conversation" class="conversation"></div>
+    </div>
+
+    <!-- Audio -->
+    <audio id="chatbotSound" src="./assets/sounds/message-sound.mp3"></audio>
+    <!-- Script -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
