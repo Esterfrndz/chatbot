@@ -7,8 +7,9 @@ Este es un chatbot desarrollado con PHP y JavaScript que permite a los usuarios 
 </div>
 
 ## Captura de Pantalla
-
-![Interfaz del Chatbot](chatbot.png)
+<div align = "center" >
+<img src="chatbot.png" alt="Interfaz del Chatbot" width="500">
+</div>
 
 ## Características
 
@@ -25,9 +26,28 @@ Este es un chatbot desarrollado con PHP y JavaScript que permite a los usuarios 
 - Servidor web con soporte para PHP (Apache, Nginx, etc.).
 
 - PHP 7.4 o superior.
-
+  
 - Base de datos MySQL (opcional para almacenamiento de conversaciones).
 
 - Navegador moderno con soporte para JavaScript.
 
+## Instalación
 
+1. Clona el repositorio
+
+   ```sh
+   git clone https://github.com/Esterfrndz/chatbot
+   ```
+## Estructura del proyecto
+
+* chatbot/
+  * api/
+      * chatbot.php
+  * assets/
+      * sounds/
+          * message-sound.mp3
+  * index.html
+  * db.php
+  * script.js
+  * style.css
+  * README.md
